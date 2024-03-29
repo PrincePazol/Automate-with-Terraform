@@ -2,7 +2,7 @@
 
 <img src="https://coadcpgis.s3.amazonaws.com/Terraform_PrimaryLogo_ColorWhite_RGB.png" alt="Terraform logo" style="margin-top:50px"></img>
 
-# 🤖  Automating the AWS Infrastructure Infrastructure Using Terraform, Ansible, Shell Scripting and Splunk Enterprise Components
+# 🤖  Automating with AWS, Terraform, Ansible, Splunk Enterprise, Shell Scripting
 
 **Automating, versioning, and provision Amazon Web Services (AWS) with Infrastructure As Code (IaC)**
 
