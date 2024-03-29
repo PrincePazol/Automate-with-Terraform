@@ -1,5 +1,5 @@
 module "vpc" {
-  source = "/home/princepazol/devops/simple-terraform-project/modules/vpc"
+  source = "./modules/vpc"
 }
 
 # Create security groups

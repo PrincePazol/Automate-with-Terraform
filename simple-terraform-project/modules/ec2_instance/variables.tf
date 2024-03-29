@@ -20,14 +20,6 @@ variable "subnet_id" {
   description = "Specifies subnet"
 }
 
-# variable "security_groups" {
-#   description = "Specifies security group"
-# }
-
 variable "key_name" {
   description = "Specifies key name"
 }
-
-# variable "cidr_ipv4" {
-#   description = "specifies a cidr block"
-# }

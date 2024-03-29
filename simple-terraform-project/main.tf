@@ -1,17 +1,17 @@
 module "key_name" {
-  source = "/home/princepazol/devops/simple-terraform-project/modules/key_name"
+  source = "./modules/key_name"
 }
 
 module "subnet" {
-  source = "/home/princepazol/devops/simple-terraform-project/modules/subnet"
+  source = "./modules/subnet"
 }
 
 module "security_group" {
-  source = "/home/princepazol/devops/simple-terraform-project/modules/security_groups"
+  source = "./modules/security_groups"
 }
 
 module "ec2_instance" {
-  source = "/home/princepazol/devops/simple-terraform-project/modules/ec2_instance"
+  source = "./modules/ec2_instance"
   ami = var.ami[0]
   instance_type = var.instance_type[0]
   availability_zone = var.availability_zone[0]

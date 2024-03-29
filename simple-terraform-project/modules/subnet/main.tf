@@ -1,5 +1,5 @@
 module "aws_vpc" {
-  source = "/home/princepazol/devops/simple-terraform-project/modules/vpc"
+  source = "./simple-terraform-project/modules/vpc"
 }
 
 # Create public subnet

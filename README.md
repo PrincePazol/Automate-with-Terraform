@@ -9,7 +9,7 @@
 ## 🛠️  What is the Purpose of  Project?
 
 In the world of DevOps, Infrastructure as Code (Iac) is keep in terms of automating the provision of infrastructure on cloud platforms ☁️  such AWS, Azure, GCP, and among others. 
-For example in this project, Terraform is used as the IaC tool to create fourteen (14) resources on AWS. [Ansible](https://docs.ansible.com/), a popular open-source Configuration as Code (CaC)
+For example in this project, Terraform is used as the IaC tool to create eight (8) resources on AWS. [Ansible](https://docs.ansible.com/), a popular open-source Configuration as Code (CaC)
 is employed to deploy, configure, and manage [Splunk Enterprise](https://docs.splunk.com/Documentation/Splunk) instances in the provisioned AWS EC2 instances using a Bash Shell Script. 
 
 ### 🧑💻 AWS Resources Provisioned or Created
