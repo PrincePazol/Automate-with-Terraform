@@ -19,6 +19,9 @@ is employed to deploy, configure, and manage [Splunk Enterprise](https://docs.sp
 - **AWS Security Groups:** Security groups are use to control inbound and outbound traffic for provisioned resources. Basically, they are your network firewall 🧱 rules.
 - **AWS Key Pair:** It consists of a private and public key that is use to authenticate and connect to Elastic Cloud Compute (EC2) instances (virtual server) 💻.
 - **AWS EC2:** A scalable, secure virtual servers provided by AWS.
+- **AWS Internet Gateway
+- **AWS Route Table
+- **AWS Route Table Associate
 
 ## 📃 Links to More Resources
 
