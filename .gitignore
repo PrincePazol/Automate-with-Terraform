@@ -3,3 +3,4 @@
 *.tfstate*
 terraform-project*
 plan.out
+*.out
