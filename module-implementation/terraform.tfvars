@@ -16,4 +16,4 @@ instance_type = [
   "t2.small",
   "t2.medium"
 ]
-count_instance = 2
+count_instance = 5

@@ -100,6 +100,12 @@ resource "aws_vpc_security_group_ingress_rule" "splunk_kv" {
   ip_protocol = "tcp"
 }
 
+resource "aws_vpc_security_group_egress_rule" "allow_all_traffic" {
+  security_group_id = aws_security_group.allow_tls.id
+  cidr_ipv4 = "0.0.0.0/0"
+  ip_protocol = "-1"
+}
+
 # Create Key Pair
 resource "aws_key_pair" "terraform-deployer" {
   key_name = "terraform-deployer"
@@ -119,13 +125,13 @@ resource "aws_instance" "terraform_ec2" {
   associate_public_ip_address = true
   availability_zone = var.availability_zone[0]
   key_name = aws_key_pair.terraform-deployer.key_name
-  count = 1
+  count = 4
 
   root_block_device {
     volume_size = 20
   }
 
   tags = {
-    Name = "fowarder-${count.index}"
+    Name = "forwarder-${count.index}"
   }
 }

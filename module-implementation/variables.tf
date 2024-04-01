@@ -19,7 +19,5 @@ variable "instance_type" {
 }
 
 variable "count_instance" {
-  type = number
   description = "Specifies the number of servers to create"
-  default = 2
 }
