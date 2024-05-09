@@ -30,4 +30,14 @@ is employed to deploy, configure, and manage [Splunk Enterprise](https://docs.sp
 - **Ansible:** Link to [Ansible Official Docs](https://docs.ansible.com/)
 - **Splunk Enterprise:** Read more about Splunk Enter [Documentation](https://docs.splunk.com/Documentation/Splunk)
 
+## 📃 Diagrams
+### Simple Splunk Deployment 
 <img src="https://coadcpgis.s3.amazonaws.com/single-site-2x+(1).png" alt="splunk-architect logo" style="margin-top:50px"></img>
+
+<br>
+### Ingesting Okta Logs
+<img src="https://coadcpgis.s3.amazonaws.com/okta_logs.png" alt="okta logo" style="margin-top:50px"></img>
+
+<br>
+### Ingesting Nginx Webserver Logs
+<img src="https://coadcpgis.s3.amazonaws.com/nginx_logs.png" alt="nginx logo" style="margin-top:50px"></img>
