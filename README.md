@@ -35,9 +35,9 @@ is employed to deploy, configure, and manage [Splunk Enterprise](https://docs.sp
 <img src="https://coadcpgis.s3.amazonaws.com/single-site-2x+(1).png" alt="splunk-architect logo" style="margin-top:50px"></img>
 
 <br>
-### Ingesting Okta Logs
+## Ingesting Okta Logs
 <img src="https://coadcpgis.s3.amazonaws.com/okta_logs.png" alt="okta logo" style="margin-top:50px"></img>
 
 <br>
-### Ingesting Nginx Webserver Logs
+## Ingesting Nginx Webserver Logs
 <img src="https://coadcpgis.s3.amazonaws.com/nginx_logs.png" alt="nginx logo" style="margin-top:50px"></img>
