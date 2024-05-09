@@ -29,3 +29,5 @@ is employed to deploy, configure, and manage [Splunk Enterprise](https://docs.sp
 - **AWS:** Read more about services provided by AWS from their [Official Docs](https://docs.aws.amazon.com/)
 - **Ansible:** Link to [Ansible Official Docs](https://docs.ansible.com/)
 - **Splunk Enterprise:** Read more about Splunk Enter [Documentation](https://docs.splunk.com/Documentation/Splunk)
+
+<img src="https://coadcpgis.s3.amazonaws.com/single-site-2x+(1).png" alt="splunk-architect logo" style="margin-top:50px"></img>
